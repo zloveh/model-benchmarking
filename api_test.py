@@ -10,5 +10,6 @@ task_cfg = {"url": "https://test-api.xxx.com/api/v1/stream",
             "dataset_path": "./customDataset/dataset_infos.jsonl",
             "stream": True,
             "query_template": '{"conversationId":"","userMsg":""}',
+            "swanlab_api_key": "local",
             }
 run_perf_benchmark(task_cfg)
